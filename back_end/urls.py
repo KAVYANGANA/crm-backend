@@ -28,6 +28,6 @@ urlpatterns = [
     path('', home),
     path('admin/', admin.site.urls),
     path('api/', include('agents.urls')),
-]   
+  
     path('api/', include('leads.urls')),
 ]
