@@ -39,11 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'agents',
     'leads',
-    'accounts',
+    'role_auth',
     'rest_framework',
     
 ]
-
+AUTH_USER_MODEL = 'role_auth.User'
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
