@@ -30,5 +30,5 @@ urlpatterns = [
     path('api/', include('agents.urls')),
   
     path('api/', include('leads.urls')),
-    path('role-auth/', include('role_auth.urls')),
+    path('api/', include('role_auth.urls')),
 ]
